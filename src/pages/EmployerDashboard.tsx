@@ -163,7 +163,7 @@ const buildPublicFileUrl = (path?: string | null) => {
   const base =
     (import.meta as any)?.env?.VITE_API_URL ||
     (import.meta as any)?.env?.VITE_API_BASE ||
-    "http://127.0.0.1:8000";
+    "https://api.nemesisgroup.in";
 
   // Laravel public disk served at /storage/...
   return `${String(base).replace(/\/$/, "")}/storage/${String(path).replace(
