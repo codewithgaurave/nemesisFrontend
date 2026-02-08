@@ -6,6 +6,10 @@ export default defineConfig({
   preview: {
     host: true,
     port: Number(process.env.PORT) || 4173,
-    allowedHosts: ["jobportalnemesis.onrender.com"],
+    allowedHosts: [
+      "www.nemesisgroup.in",
+      "nemesisgroup.in",
+      "jobportalnemesis.onrender.com",
+    ],
   },
 });
